@@ -3,7 +3,7 @@ import java.io.IOException;
 import java.io.BufferedWriter;
 import java.io.FileWriter;
 
-public class Solution {
+public class MaxArraySum {
 
     /**
      * Finds the subset of non-adjacent elements in arr with the max sum

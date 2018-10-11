@@ -7,13 +7,13 @@ import java.io.FileWriter;
 public class BeautifulTriplets {
 
     /**
-	 * Finds the number of beautiful triplets in a sequence of integers. A triplet (a[i], a[j], a[k])
-	 * is beautiful if i < j < k and a[j] - a[i] = a[k] - a[j]
-	 *
-	 * @param d Difference between triplet values to make a beautiful triplet
-	 * @param arr Array of integers, sorted in ascending order
-	 * @return Number of beautiful triplets in arr
-	 */
+     * Finds the number of beautiful triplets in a sequence of integers. A triplet (a[i], a[j], a[k])
+     * is beautiful if i < j < k and a[j] - a[i] = a[k] - a[j]
+     *
+     * @param d Difference between triplet values to make a beautiful triplet
+     * @param arr Array of integers, sorted in ascending order
+     * @return Number of beautiful triplets in arr
+     */
     static int beautifulTriplets(int d, int[] arr) {
         int count = 0;
 
